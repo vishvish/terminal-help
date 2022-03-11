@@ -1,0 +1,152 @@
+# Move the directory to the second line
+format = "$all$git_metrics$character"
+
+command_timeout = 1000
+
+[aws]
+disabled = true
+
+[cmd_duration]
+min_time = 500
+format = "last command duration [$duration](bold yellow)"
+
+[gcloud]
+disabled = true
+
+[time]
+disabled = false
+format = '[\[ $time \]]($style) '
+time_format = "%T"
+
+[git_status]
+stashed = "stash"
+
+
+
+[git_metrics]
+disabled = false
+
+[deno]
+disabled = true
+
+[shlvl]
+disabled = true
+
+
+[singularity]
+disabled = true
+
+[vcsh]
+disabled = true
+
+[hg_branch]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[package]
+disabled = true
+
+[cmake]
+disabled = true
+
+[cobol]
+disabled = true
+
+[container]
+disabled = true
+
+[dart]
+disabled = true
+
+
+[dotnet]
+disabled = true
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[erlang]
+disabled = true
+
+[golang]
+[helm]
+disabled = true
+
+[java]
+disabled = true
+
+[julia]
+disabled = true
+
+[kotlin]
+disabled = true
+
+[lua]
+disabled = true
+
+[nim]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[ocaml]
+disabled = true
+
+[perl]
+disabled = true
+
+[php]
+disabled = true
+
+[pulumi]
+disabled = true
+
+[purescript]
+disabled = true
+
+[rlang]
+disabled = true
+
+[red]
+disabled = true
+
+[scala]
+disabled = true
+
+[swift]
+disabled = true
+
+[vlang]
+disabled = true
+
+[vagrant]
+disabled = true
+
+[zig]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[conda]
+disabled = true
+
+[memory_usage]
+disabled = true
+
+[openstack]
+disabled = true
+
+[azure]
+disabled = true
+
+[crystal]
+disabled = true
+
+

@@ -16,7 +16,7 @@ https://github.com/marlonrichert/zsh-autocomplete
 
 ##### Best to replace binaries included with Mac
 
-* reattach-to-user-namespace reattach-to-user-namespace 
+* reattach-to-user-namespace
 * duf
 * dust
 * zsh
